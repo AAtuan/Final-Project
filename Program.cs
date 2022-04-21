@@ -23,7 +23,7 @@ class FinalProject
             }
         }
 
-        
+
     }
     static void Main()
     {
@@ -32,3 +32,9 @@ class FinalProject
 }
 
 // https://stackoverflow.com/questions/56978641/how-to-create-a-3d-list-in-c-sharp
+//https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=net-6.0
+//remember to implement dictionary lookup to simplify everything.
+
+//Dictionary Lookup 
+//https://stackoverflow.com/questions/5531042/how-to-find-item-in-dictionary-collection
+//https://www.techiedelight.com/get-key-from-value-dictionary-csharp/
