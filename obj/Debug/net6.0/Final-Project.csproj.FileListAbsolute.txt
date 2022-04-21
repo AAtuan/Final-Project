@@ -1,0 +1,15 @@
+C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\bin\Debug\net6.0\Final-Project.exe
+C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\bin\Debug\net6.0\Final-Project.deps.json
+C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\bin\Debug\net6.0\Final-Project.runtimeconfig.json
+C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\bin\Debug\net6.0\Final-Project.dll
+C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\bin\Debug\net6.0\ref\Final-Project.dll
+C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\bin\Debug\net6.0\Final-Project.pdb
+C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\obj\Debug\net6.0\Final-Project.csproj.AssemblyReference.cache
+C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\obj\Debug\net6.0\Final-Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\obj\Debug\net6.0\Final-Project.AssemblyInfoInputs.cache
+C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\obj\Debug\net6.0\Final-Project.AssemblyInfo.cs
+C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\obj\Debug\net6.0\Final-Project.csproj.CoreCompileInputs.cache
+C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\obj\Debug\net6.0\Final-Project.dll
+C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\obj\Debug\net6.0\ref\Final-Project.dll
+C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\obj\Debug\net6.0\Final-Project.pdb
+C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\obj\Debug\net6.0\Final-Project.genruntimeconfig.cache
