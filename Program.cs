@@ -6,7 +6,7 @@ using System.Diagnostics;
 class FinalProject
 {
 
-    static int Test(List<string> Symptoms)
+    static string Test(List<string> Symptoms, string [] Deseases)
     {
 
         List<string> Influenza = new List<string>();
@@ -22,6 +22,8 @@ class FinalProject
 
             }
         }
+
+        
     }
     static void Main()
     {
