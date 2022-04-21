@@ -1,79 +1,32 @@
-﻿// Lab 3 17 22 - Abel Atuan
-// TODO: Complete the steps outlined in the lab description
-
+﻿// Final project - Abel Atuan
+//This is the firs part of my project. Its a search engine that will look for symptoms of medical conditions.
+//The first part is a method that looks through the parts of an array looking for matches.
+//first it will look for a match, then it will look for the next one and it will keep looking through the different variables trying to get a perfect match and then it will list the items with the similar or exact contents.
 using System.Diagnostics;
-
-class Program
+class FinalProject
 {
 
-    // returns the position of the given name in the given sorted list of names
-    // or -1 if it is not contained in the list
-    static int BinarySearch(string[] names, string name)
+    static int Test(List<string> Symptoms)
     {
-        // TODO 4
-    int minNum = 0;
-    int maxNum = names.Length -1;
 
-    while (minNum <= maxNum)
-    {
-        int mid = (minNum + maxNum)/2;
-        if (name == names[mid])
+        List<string> Influenza = new List<string>();
+        Influenza.Add("Headache");
+        Influenza.Add("Cough");
+        
+
+
+        for (int i = 0; i < Symptoms.Count; i++)
         {
-            return = mid -1;
-        }
-        else if (name.CompareTo(names[mid]) < 0)
-        {
-            maxNum = mid -1;
-        }
-        {
-            minNum = mid +1;
+            for (int j = 0; i < Symptoms.Count; i++)
+            {
+
+            }
         }
     }
-    return -1;
-    }
-
-    static void Test()
-    {
-        string[] words1 = { "add", "be", "because", "chop", "yes" };
-        Debug.Assert(BinarySearch(words1, "add") == 0);
-        Debug.Assert(BinarySearch(words1, "be") == 1);
-        Debug.Assert(BinarySearch(words1, "because") == 2);
-        Debug.Assert(BinarySearch(words1, "chop") == 3);
-        Debug.Assert(BinarySearch(words1, "yes") == 4);
-        Debug.Assert(BinarySearch(words1, "no") == -1);
-        Debug.Assert(BinarySearch(words1, "") == -1);
-
-        string[] words2 = { "be", "chop", "yes" };
-        Debug.Assert(BinarySearch(words2, "yes") == 2);
-        Debug.Assert(BinarySearch(words2, "be") == 0);
-        Debug.Assert(BinarySearch(words2, "chop") == 1);
-        Debug.Assert(BinarySearch(words2, "chops") == -1);
-        Debug.Assert(BinarySearch(words2, "cho") == -1);
-        Console.WriteLine("tests passed.");
-    }
-
     static void Main()
     {
-        // Test(); // TODO 3
-        string[] names = File.ReadAllLines("RankedNames.txt");
-        Array.Sort(names);
-
-        Stopwatch timer = new Stopwatch();
-        timer.Start();
-
-        StreamWriter outFile = new StreamWriter("Results.txt");
-        foreach (string name in File.ReadAllLines("Requests.txt"))
-        {
-            // TODO 1, 2, 5
-            int position = Array.IndexOf(names, name);
-            // int position = Array.BinarySearch(names, name);
-            // int position = BinarySearch(names, name);
-            outFile.WriteLine($"{name} is at position {position}.");
-        }
-        outFile.Close();
-
-        timer.Stop();
-
-        Console.WriteLine($"Searching took {timer.ElapsedMilliseconds / 1000.0} seconds.");
+        string input = Console.ReadLine();
     }
 }
+
+// https://stackoverflow.com/questions/56978641/how-to-create-a-3d-list-in-c-sharp
