@@ -21,13 +21,16 @@ class FinalProject
         HashSet<string> congestion = new HashSet<string>();
         HashSet<string> sneezing = new HashSet<string>();
         HashSet<string> soreThrought = new HashSet<string>();
-        HashSet<string> bodyache = new HashSet<string>();
+        HashSet<string> bodyAche = new HashSet<string>();
 
         Dictionary.Add (cough, headache, congestion,sneezing, soreThrought, bodyache);
 
-        
-
-        
+        cough.Add ("Cold","Flu","Infections","Pneumonia");
+        headache.Add ("Sinusitis","Cold","Infections","Dehydration");
+        congestion.Add ("Cold","Flu","Sinusitis","Infections");
+        sneezing.Add ("Cold","Influenza","Sinusitis");
+        soreThrought.Add ("Cold","Flu","Mono","Covid 19");
+        bodyAche.Add ("Dehydration","Cold","Mono","Pneumonia");
 
         for (int i = 0; i < Symptoms.Count; i++)
         {
