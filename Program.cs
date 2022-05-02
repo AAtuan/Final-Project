@@ -13,7 +13,21 @@ class FinalProject
         Influenza.Add("Headache");
         Influenza.Add("Cough");
         
+        Dictionary<string, HashSet<string>> Dictionary = new Dictionary<string, HashSet<string>>();
 
+
+        HashSet<string> cough = new HashSet<string>();
+        HashSet<string> headache = new HashSet<string>();
+        HashSet<string> congestion = new HashSet<string>();
+        HashSet<string> sneezing = new HashSet<string>();
+        HashSet<string> soreThrought = new HashSet<string>();
+        HashSet<string> bodyache = new HashSet<string>();
+
+        Dictionary.Add (cough, headache, congestion,sneezing, soreThrought, bodyache);
+
+        
+
+        
 
         for (int i = 0; i < Symptoms.Count; i++)
         {
