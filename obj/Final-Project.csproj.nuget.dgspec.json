@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abel.atuan\\Documents\\LABS\\Final Project\\Final-Project\\Final-Project.csproj": {}
+    "C:\\Users\\AAtua\\OneDrive\\Documents\\Snow\\Spring 2022\\Intro to Programming\\Workspace\\Final project\\Final-Project\\Final-Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abel.atuan\\Documents\\LABS\\Final Project\\Final-Project\\Final-Project.csproj": {
+    "C:\\Users\\AAtua\\OneDrive\\Documents\\Snow\\Spring 2022\\Intro to Programming\\Workspace\\Final project\\Final-Project\\Final-Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abel.atuan\\Documents\\LABS\\Final Project\\Final-Project\\Final-Project.csproj",
+        "projectUniqueName": "C:\\Users\\AAtua\\OneDrive\\Documents\\Snow\\Spring 2022\\Intro to Programming\\Workspace\\Final project\\Final-Project\\Final-Project.csproj",
         "projectName": "Final-Project",
-        "projectPath": "C:\\Users\\abel.atuan\\Documents\\LABS\\Final Project\\Final-Project\\Final-Project.csproj",
-        "packagesPath": "C:\\Users\\abel.atuan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abel.atuan\\Documents\\LABS\\Final Project\\Final-Project\\obj\\",
+        "projectPath": "C:\\Users\\AAtua\\OneDrive\\Documents\\Snow\\Spring 2022\\Intro to Programming\\Workspace\\Final project\\Final-Project\\Final-Project.csproj",
+        "packagesPath": "C:\\Users\\AAtua\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AAtua\\OneDrive\\Documents\\Snow\\Spring 2022\\Intro to Programming\\Workspace\\Final project\\Final-Project\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\abel.atuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\AAtua\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

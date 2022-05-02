@@ -13,3 +13,18 @@ C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\obj\Debug\net6.0\
 C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\obj\Debug\net6.0\ref\Final-Project.dll
 C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\obj\Debug\net6.0\Final-Project.pdb
 C:\Users\abel.atuan\Documents\LABS\Final Project\Final-Project\obj\Debug\net6.0\Final-Project.genruntimeconfig.cache
+C:\Users\AAtua\OneDrive\Documents\Snow\Spring 2022\Intro to Programming\Workspace\Final project\Final-Project\obj\Debug\net6.0\Final-Project.csproj.AssemblyReference.cache
+C:\Users\AAtua\OneDrive\Documents\Snow\Spring 2022\Intro to Programming\Workspace\Final project\Final-Project\obj\Debug\net6.0\Final-Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AAtua\OneDrive\Documents\Snow\Spring 2022\Intro to Programming\Workspace\Final project\Final-Project\obj\Debug\net6.0\Final-Project.AssemblyInfoInputs.cache
+C:\Users\AAtua\OneDrive\Documents\Snow\Spring 2022\Intro to Programming\Workspace\Final project\Final-Project\obj\Debug\net6.0\Final-Project.AssemblyInfo.cs
+C:\Users\AAtua\OneDrive\Documents\Snow\Spring 2022\Intro to Programming\Workspace\Final project\Final-Project\obj\Debug\net6.0\Final-Project.csproj.CoreCompileInputs.cache
+C:\Users\AAtua\OneDrive\Documents\Snow\Spring 2022\Intro to Programming\Workspace\Final project\Final-Project\obj\Debug\net6.0\Final-Project.dll
+C:\Users\AAtua\OneDrive\Documents\Snow\Spring 2022\Intro to Programming\Workspace\Final project\Final-Project\obj\Debug\net6.0\ref\Final-Project.dll
+C:\Users\AAtua\OneDrive\Documents\Snow\Spring 2022\Intro to Programming\Workspace\Final project\Final-Project\obj\Debug\net6.0\Final-Project.pdb
+C:\Users\AAtua\OneDrive\Documents\Snow\Spring 2022\Intro to Programming\Workspace\Final project\Final-Project\bin\Debug\net6.0\Final-Project.exe
+C:\Users\AAtua\OneDrive\Documents\Snow\Spring 2022\Intro to Programming\Workspace\Final project\Final-Project\bin\Debug\net6.0\Final-Project.deps.json
+C:\Users\AAtua\OneDrive\Documents\Snow\Spring 2022\Intro to Programming\Workspace\Final project\Final-Project\bin\Debug\net6.0\Final-Project.runtimeconfig.json
+C:\Users\AAtua\OneDrive\Documents\Snow\Spring 2022\Intro to Programming\Workspace\Final project\Final-Project\bin\Debug\net6.0\Final-Project.dll
+C:\Users\AAtua\OneDrive\Documents\Snow\Spring 2022\Intro to Programming\Workspace\Final project\Final-Project\bin\Debug\net6.0\ref\Final-Project.dll
+C:\Users\AAtua\OneDrive\Documents\Snow\Spring 2022\Intro to Programming\Workspace\Final project\Final-Project\bin\Debug\net6.0\Final-Project.pdb
+C:\Users\AAtua\OneDrive\Documents\Snow\Spring 2022\Intro to Programming\Workspace\Final project\Final-Project\obj\Debug\net6.0\Final-Project.genruntimeconfig.cache

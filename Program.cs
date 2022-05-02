@@ -5,16 +5,9 @@
 using System.Diagnostics;
 class FinalProject
 {
-
-    static string Test(List<string> Symptoms, string [] Deseases)
+    static void Main()
     {
-
-        List<string> Influenza = new List<string>();
-        Influenza.Add("Headache");
-        Influenza.Add("Cough");
-        
         Dictionary<string, HashSet<string>> Dictionary = new Dictionary<string, HashSet<string>>();
-
 
         HashSet<string> cough = new HashSet<string>();
         HashSet<string> headache = new HashSet<string>();
@@ -23,28 +16,66 @@ class FinalProject
         HashSet<string> soreThrought = new HashSet<string>();
         HashSet<string> bodyAche = new HashSet<string>();
 
-        Dictionary.Add (cough, headache, congestion,sneezing, soreThrought, bodyache);
+        // cough.Add ("Cold");
 
-        cough.Add ("Cold","Flu","Infections","Pneumonia");
-        headache.Add ("Sinusitis","Cold","Infections","Dehydration");
-        congestion.Add ("Cold","Flu","Sinusitis","Infections");
-        sneezing.Add ("Cold","Influenza","Sinusitis");
-        soreThrought.Add ("Cold","Flu","Mono","Covid 19");
-        bodyAche.Add ("Dehydration","Cold","Mono","Pneumonia");
+        cough.Add ("Cold");
+        cough.Add ("Covid 19");
+        cough.Add ("Flu");
+        cough.Add ("Pneumonia");
+        cough.Add ("Covid 19");
 
-        for (int i = 0; i < Symptoms.Count; i++)
+        headache.Add ("Sinusitis");
+        headache.Add ("Cold");
+        headache.Add ("Infections");
+        headache.Add ("Dehydration");
+        headache.Add ("Covid 19");
+
+        congestion.Add ("Cold");
+        congestion.Add ("Flu");
+        congestion.Add ("Sinusitis");
+        congestion.Add ("Infections");
+
+        sneezing.Add ("Cold");
+        sneezing.Add ("Influenza");
+        sneezing.Add ("Sinusitis");
+
+        soreThrought.Add ("Cold");
+        soreThrought.Add ("Flu");
+        soreThrought.Add ("Mono");
+        soreThrought.Add ("Covid 19");
+
+        bodyAche.Add ("Dehydration");
+        bodyAche.Add ("Cold");
+        bodyAche.Add ("Mono");
+        bodyAche.Add ("Pneumonia");
+
+        Dictionary.Add("cough",cough);
+        Dictionary.Add("headache", headache);
+        Dictionary.Add("congestion",congestion);
+        Dictionary.Add("sneezing",sneezing);
+        Dictionary.Add("soreThrought",soreThrought);
+        Dictionary.Add("bodyAche",bodyAche);
+
+        List<string> userInput = new List<string>();
+
+        Console.WriteLine("Please enter the amount of symptoms you are experiencing.");
+
+        int symptomCount = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Please enter your symptoms");
+
+        for (int i = 0; i < symptomCount; i++)
         {
-            for (int j = 0; i < Symptoms.Count; i++)
-            {
-
-            }
+            userInput.Add(Console.ReadLine());
         }
 
+        foreach (var count in userInput)
+        {
+            Console.WriteLine(count);
+        }
 
-    }
-    static void Main()
-    {
-        string input = Console.ReadLine();
+        // Console.WriteLine(userInput.Intersect<Dictionary>);
+
     }
 }
 
