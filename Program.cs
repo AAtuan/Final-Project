@@ -84,39 +84,37 @@ class FinalProject
         }
         else if(yesorno == "2")
         {
-        Console.Clear();
-        Console.WriteLine("The symptoms in our database are:");
-        Console.WriteLine();
-
-            foreach (var sublist in keyList)
-            {
-                Console.WriteLine(sublist);
-            }
-
+            Console.Clear();
+            Console.WriteLine("The symptoms in our database are:");
             Console.WriteLine();
 
-        Console.WriteLine("The program will output the illnesses related to those symptoms");
-        Console.WriteLine("Please enter two your symptoms");
+                foreach (var sublist in keyList)
+                {
+                    Console.WriteLine(sublist);
+                }
 
-        string input1 = Console.ReadLine();
-        string input2 = Console.ReadLine();
+                Console.WriteLine();
 
-Console.WriteLine();
+            Console.WriteLine("The program will output the illnesses related to those symptoms");
+            Console.WriteLine("Please enter two your symptoms");
 
-        Dictionary[input1].Intersect(Dictionary[input2]);
-        
-        List<string> intersect = (Dictionary[input1].Intersect(Dictionary[input2])).ToList();
+            string input1 = Console.ReadLine();
+            string input2 = Console.ReadLine();
 
-        Console.WriteLine("The illnesses registered in our database that you may have are:");
-        Console.WriteLine();
-        foreach (var sublist in intersect)
-        {
-                Console.WriteLine(sublist);
-        }
+            Console.WriteLine();
+            
+            List<string> intersect = (Dictionary[input1].Intersect(Dictionary[input2])).ToList();
+
+            Console.WriteLine("The illnesses registered in our database that you may have are:");
+            Console.WriteLine();
+            foreach (var sublist in intersect)
+            {
+                    Console.WriteLine(sublist);
+            }
         }
     }
 }
-
+//The first two weren't used but were taken into consideration in my thought process throughout the project.
 // https://stackoverflow.com/questions/56978641/how-to-create-a-3d-list-in-c-sharp
 //https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=net-6.0
 //remember to implement dictionary lookup to simplify everything.
