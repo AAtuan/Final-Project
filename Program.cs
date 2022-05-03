@@ -18,12 +18,12 @@ class FinalProject
 
         // cough.Add ("Cold");
 
-        Dictionary.Add("cough", cough);
-        Dictionary.Add("headache", headache);
-        Dictionary.Add("congestion", congestion);
-        Dictionary.Add("sneezing", sneezing);
-        Dictionary.Add("soreThrought", soreThrought);
-        Dictionary.Add("bodyAche", bodyAche);
+        Dictionary.Add("Cough", cough);
+        Dictionary.Add("Headache", headache);
+        Dictionary.Add("Congestion", congestion);
+        Dictionary.Add("Sneezing", sneezing);
+        Dictionary.Add("SoreThrought", soreThrought);
+        Dictionary.Add("BodyAche", bodyAche);
 
         cough.Add ("Cold");
         cough.Add ("Covid 19");
@@ -55,51 +55,65 @@ class FinalProject
         bodyAche.Add ("Mono");
         bodyAche.Add ("Pneumonia");
 
-        // Dictionary.Add("cough",cough);
-        // Dictionary.Add("headache", headache);
-        // Dictionary.Add("congestion",congestion);
-        // Dictionary.Add("sneezing",sneezing);
-        // Dictionary.Add("soreThrought",soreThrought);
-        // Dictionary.Add("bodyAche",bodyAche);
+        List<string> keyList = new List<string>(Dictionary.Keys);
 
 
-        // int symptomCount = int.Parse(Console.ReadLine());
-        
+        Console.WriteLine("Do you want to look for the illnesses related to a certain symptom or do you want to input 2 different symptoms and find the illnesses related to them?");
+        Console.WriteLine("Enter a 1 if yes and a 2 if no");
 
-        Console.WriteLine("Please enter two your symptoms");
+        string yesorno = Console.ReadLine();
+
+        if(yesorno == "1")
+        {
+            Console.WriteLine("The symptoms in our data base are:");
+            foreach (var sublist in keyList)
+            {
+                Console.WriteLine(sublist);
+            }
+            Console.WriteLine();
+            Console.WriteLine("Please enter the name of the symptom you are interested in");
+            string conditional = Console.ReadLine();
+
+            Console.WriteLine();
+
+            foreach (var sublist in Dictionary[conditional])
+            {
+                Console.WriteLine(sublist);
+            }
+            Console.WriteLine("Those are the illnesses related to the symptom entered.");
+        }
+        else if(yesorno == "2")
+        {
+        Console.Clear();
+        Console.WriteLine("The symptoms in our database are:");
+        Console.WriteLine();
+
+            foreach (var sublist in keyList)
+            {
+                Console.WriteLine(sublist);
+            }
+
+            Console.WriteLine();
+
         Console.WriteLine("The program will output the illnesses related to those symptoms");
+        Console.WriteLine("Please enter two your symptoms");
 
         string input1 = Console.ReadLine();
         string input2 = Console.ReadLine();
 
-        // Dictionary.Intersect(input1).Intersect(input2);
+Console.WriteLine();
 
-
-        // HashSet<HashSet<string>> ListofLists = new HashSet<HashSet<string>>() {cough, headache,congestion,soreThrought,sneezing,bodyAche};
-
-        // List<List<>> intersect = new List<List<>>(){userInput.Intersect(Illnesses).ToList()};
-
-        // ListofLists.IntersectWith(userInput);
         Dictionary[input1].Intersect(Dictionary[input2]);
-        // Console.WriteLine(Dictionary[input1]);
         
         List<string> intersect = (Dictionary[input1].Intersect(Dictionary[input2])).ToList();
 
+        Console.WriteLine("The illnesses registered in our database that you may have are:");
+        Console.WriteLine();
         foreach (var sublist in intersect)
         {
-            // foreach (var obj in sublist)
-            // {
                 Console.WriteLine(sublist);
-            // }
         }
-        // Console.WriteLine(Dictionary[input2]);
-
-        // foreach (var count in (ListofLists))
-        // {
-        //     Console.WriteLine(count);   
-        // }
-
-
+        }
     }
 }
 
@@ -110,3 +124,12 @@ class FinalProject
 //Dictionary Lookup 
 //https://stackoverflow.com/questions/5531042/how-to-find-item-in-dictionary-collection
 //https://www.techiedelight.com/get-key-from-value-dictionary-csharp/
+
+//Dictionary Info
+//https://www.tutorialsteacher.com/csharp/csharp-dictionary
+
+//ToList() Info
+//https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.tolist?view=net-6.0
+
+//.Keys Info
+//https://stackoverflow.com/questions/1276763/how-do-i-get-the-list-of-keys-in-a-dictionary
