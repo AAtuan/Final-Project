@@ -18,11 +18,17 @@ class FinalProject
 
         // cough.Add ("Cold");
 
+        Dictionary.Add("cough", cough);
+        Dictionary.Add("headache", headache);
+        Dictionary.Add("congestion", congestion);
+        Dictionary.Add("sneezing", sneezing);
+        Dictionary.Add("soreThrought", soreThrought);
+        Dictionary.Add("bodyAche", bodyAche);
+
         cough.Add ("Cold");
         cough.Add ("Covid 19");
         cough.Add ("Flu");
         cough.Add ("Pneumonia");
-        cough.Add ("Covid 19");
 
         headache.Add ("Sinusitis");
         headache.Add ("Cold");
@@ -49,32 +55,50 @@ class FinalProject
         bodyAche.Add ("Mono");
         bodyAche.Add ("Pneumonia");
 
-        Dictionary.Add("cough",cough);
-        Dictionary.Add("headache", headache);
-        Dictionary.Add("congestion",congestion);
-        Dictionary.Add("sneezing",sneezing);
-        Dictionary.Add("soreThrought",soreThrought);
-        Dictionary.Add("bodyAche",bodyAche);
+        // Dictionary.Add("cough",cough);
+        // Dictionary.Add("headache", headache);
+        // Dictionary.Add("congestion",congestion);
+        // Dictionary.Add("sneezing",sneezing);
+        // Dictionary.Add("soreThrought",soreThrought);
+        // Dictionary.Add("bodyAche",bodyAche);
 
-        List<string> userInput = new List<string>();
 
-        Console.WriteLine("Please enter the amount of symptoms you are experiencing.");
+        // int symptomCount = int.Parse(Console.ReadLine());
+        
 
-        int symptomCount = int.Parse(Console.ReadLine());
+        Console.WriteLine("Please enter two your symptoms");
+        Console.WriteLine("The program will output the illnesses related to those symptoms");
 
-        Console.WriteLine("Please enter your symptoms");
+        string input1 = Console.ReadLine();
+        string input2 = Console.ReadLine();
 
-        for (int i = 0; i < symptomCount; i++)
+        // Dictionary.Intersect(input1).Intersect(input2);
+
+
+        // HashSet<HashSet<string>> ListofLists = new HashSet<HashSet<string>>() {cough, headache,congestion,soreThrought,sneezing,bodyAche};
+
+        // List<List<>> intersect = new List<List<>>(){userInput.Intersect(Illnesses).ToList()};
+
+        // ListofLists.IntersectWith(userInput);
+        Dictionary[input1].Intersect(Dictionary[input2]);
+        // Console.WriteLine(Dictionary[input1]);
+        
+        List<string> intersect = (Dictionary[input1].Intersect(Dictionary[input2])).ToList();
+
+        foreach (var sublist in intersect)
         {
-            userInput.Add(Console.ReadLine());
+            // foreach (var obj in sublist)
+            // {
+                Console.WriteLine(sublist);
+            // }
         }
+        // Console.WriteLine(Dictionary[input2]);
 
-        foreach (var count in userInput)
-        {
-            Console.WriteLine(count);
-        }
+        // foreach (var count in (ListofLists))
+        // {
+        //     Console.WriteLine(count);   
+        // }
 
-        // Console.WriteLine(userInput.Intersect<Dictionary>);
 
     }
 }
